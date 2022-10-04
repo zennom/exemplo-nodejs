@@ -7,7 +7,7 @@ o comando: npm install -g typescript, em seguida instalar os outros pacotes do t
 npx tsc --init e depois instalar npm install -D ts-node em seguida irá aparecer no vscode dois arquivos que são NODE_MODULES e TSCONFIG.JSON
 node_modules é onde vai ficar todas as bibliotecas que vamos instalar e o tsconfig.json é a configuração do typescript
 
-3 - ir na arquivo tsconfig.json e descomentar as seguintes linhas de código:
+3 - ir no arquivo tsconfig.json e descomentar as seguintes linhas de código:
 "moduleResolution:node"
 "rootDir": "./src"
 "outDir": "./dist"
